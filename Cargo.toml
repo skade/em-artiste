@@ -1,0 +1,8 @@
+[package]
+name = "em-artiste"
+version = "0.1.0"
+authors = ["Florian Gilcher <florian.gilcher@asquera.de>"]
+
+[dependencies.mon-artiste]
+git = "https://github.com/skade/mon-artiste.git"
+branch = "update-regex"
