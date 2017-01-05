@@ -92,7 +92,7 @@ fn render_to_string(table: &str, content: String, name: &str) -> Result<mon_arti
     Ok(r.render_s(&s))
 }
 
-#[link_args = "-s EXPORTED_FUNCTIONS=['_process_string'] -s DEMANGLE_SUPPORT=1 --post-js js/bindings.js"]
+#[link_args = "-s EXPORTED_FUNCTIONS=['_process_string'] -s DEMANGLE_SUPPORT=1 --post-js js/bindings.js -O3 --memory-init-file 0"]
 extern {}
 
 #[no_mangle]

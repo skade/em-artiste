@@ -1,5 +1,5 @@
-<svg baseProfile="full" width="112" height="52" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 112 52">
-  <path stroke-width="2" d="M 4,13 Q 4,6.5 8,6.5Q 8,6.5 16,6.5L 40,6.5Q 44,6.5 44,13L 44,26Q 44,32.5 40,32.5Q 40,32.5 32,32.5L 8,32.5Q 4,32.5 4,26L 4,13 Z" fill="none" stroke="green" />
-  <text font-size="13" xml:space="preserve" text-anchor="start" dominant-baseline="middle" y="6.5" x="64" fill="black" font-family="monospace">top</text>
-  <text y="32.5" dominant-baseline="middle" xml:space="preserve" x="64" fill="black" font-size="13" font-family="monospace" text-anchor="start">bottom</text>
+<svg viewBox="0 0 112 52" xmlns="http://www.w3.org/2000/svg" height="52" baseProfile="full" version="1.1" width="112">
+  <path d="M 4,13 Q 4,6.5 8,6.5Q 8,6.5 16,6.5L 40,6.5Q 44,6.5 44,13L 44,26Q 44,32.5 40,32.5Q 40,32.5 32,32.5L 8,32.5Q 4,32.5 4,26L 4,13 Z" fill="none" stroke="green" stroke-width="2" />
+  <text fill="black" x="64" y="6.5" font-size="13" text-anchor="start" xml:space="preserve" dominant-baseline="middle" font-family="monospace">top</text>
+  <text text-anchor="start" dominant-baseline="middle" x="64" font-family="monospace" y="32.5" fill="black" xml:space="preserve" font-size="13">bottom</text>
 </svg>
